@@ -31,3 +31,14 @@ void main()
   print("${v.id},${v.name}");
   
 }
+
+//printing a list
+void main()
+{
+ var list=[10,20,30,40];
+  list.add(60);
+  
+  print("$list");
+
+
+}
