@@ -42,3 +42,19 @@ void main()
 
 
 }
+
+void main()
+{
+var v1=10;
+var v2=20;
+var v3=v1+v2;
+var v4='Sumon';
+if(v1+v2==30 && v4=='Sumon')
+{
+  print("Right");
+}
+  else
+  {
+    print('wrong');
+  }
+}
