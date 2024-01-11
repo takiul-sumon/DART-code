@@ -42,7 +42,7 @@ void main()
 
 
 }
-
+//if else statement
 void main()
 {
 var v1=10;
@@ -57,4 +57,20 @@ if(v1+v2==30 && v4=='Sumon')
   {
     print('wrong');
   }
+}
+
+
+
+
+//null safety
+void main()
+{
+ 
+  String? v='sumon';
+  v=null;
+  v='Hasi';
+  v=null;
+  v='Takiul';
+  
+  print(v);
 }
