@@ -74,3 +74,39 @@ void main()
   
   print(v);
 }
+
+
+
+
+
+//Various types of Constructor
+
+class Student {
+  int? id;
+  String? Name;
+//   Student() {
+//     print("Defaulf Constructor");
+//   }
+  Student(this.id,this.Name){
+    print("${id},${Name}");
+    
+  }
+  
+  Student.custom(){
+    print("Custom Constructor");
+  }
+  
+}
+
+void main() {
+  
+  var v=Student(123,"Sumon");
+  print(v.Name);
+  print(v.id);
+  var c=Student.custom();
+  
+  
+}
+
+
+
