@@ -110,3 +110,20 @@ void main() {
 
 
 
+mapping
+
+
+  void main() {
+  var map={
+    {'penny':1,'current':.01},
+    {'Nickel':5,'current':.05},
+    {'Dime':10,'current':0.1}
+  };
+  
+print("${map}\n"); 
+  
+}
+
+
+
+
