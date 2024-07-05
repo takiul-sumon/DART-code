@@ -178,3 +178,26 @@ void main() {
 //   final T id;
 //   student(this.name, this.id);
 // }
+
+
+
+
+//List using constrcutor
+void main() {
+  List<double> list = [10, 20, 30, 40, 20.0, 3.33];
+  print(list[4]);
+  List<student> nam = [student('Name', 20)];
+
+  // student st = student('H', 'B');
+  
+  
+    print(nam[0].name);
+  
+}
+
+class student {
+  String name;
+  int id;
+  student(this.name, this.id);
+}
+
